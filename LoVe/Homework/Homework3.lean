@@ -218,7 +218,7 @@ theorem quasicontractible_of_exists_assoc_inj {α : Type} :
   (∃ f : α → α → α, Associative f ∧ Injective₂ f) → Quasicontractible α :=
 sorry
 
-/-! 
+/-!
 ### 3.4 (1 point). Using `quasicontractible_of_exists_assoc_inj`, prove that
 there exists no associative, injective binary operation on the natural numbers.
 You may write this as a tactic proof, though, once again, some forward reasoning
